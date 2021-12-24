@@ -107,6 +107,41 @@
       "artifacts": [
         "console"
       ]
+    },
+    "/Users/arnabmandal/Desktop/hardhat-web3/contracts/Hero.sol": {
+      "lastModificationDate": 1640369890257,
+      "contentHash": "50c5027b51d8165a75a2508f4123efb4",
+      "sourceName": "contracts/Hero.sol",
+      "solcConfig": {
+        "version": "0.8.10",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Hero"
+      ]
     }
   }
 }
